@@ -47,10 +47,8 @@ def jalan(z):
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(0.07)
-
-#Dev:love_hacker
-##### LOGO #####
-logo = """ 
+		
+logo ="""
 
   /$$$$$$$  /$$   /$$ /$$   /$$ /$$   /$$  /$$$$$$ 
 | $$____/ | $$  | $$| $$  | $$| $$  /$$/ /$$__  $$
@@ -62,7 +60,10 @@ logo = """
  \______/ |__/  |__/      |__/|__/  \__/|__/  |__/
                                                  
                                         
-def tik():
+                                                            
+                                      
+    """
+                                                 
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
